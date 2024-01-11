@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="signup mt-lg-5  ">
+        <div class="text-center container w-50 box p-5">
+            <h2 class="text-info ">Smart Login System</h2>
+            <div class="row text-center">
+                <form  action="">
+                    <input id="name" class="form-control my-3 " type="text" placeholder="Enter your name">
+                    <input id="email" class="form-control my-3 " type="text" placeholder="Enter your email">
+                    <input id="password" class="form-control my-3 " type="text" placeholder="Enter your password">
+                    <p id="success" class="text-success d-none ">Success</p>
+                    <p id="exist" class="text-danger d-none ">email is already exist</p>
+                    <p id="required" class="text-danger d-none ">all inputs is required</p>
+                    <p id="validEmail" class="text-danger d-none ">email is not valid</p>
+                    <button onclick="Sign_up()" id="sign_up_btn" class="btn btn-outline-info w-100 mb-3 " type="button">Sign Up</button>
+                </form>
+                <p></p>
+               <h6 class="text-white">you have an account?  <a class="text-white  " href="./sign-in.html">signin</a></h6>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
